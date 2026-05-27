@@ -1,99 +1,133 @@
-📘 ConectaTel – Análisis de Uso y Segmentación de Clientes
+# 📘 ConectaTel – Análisis de Uso y Segmentación de Clientes
 
-Este proyecto analiza el comportamiento de los usuarios de ConectaTel, una empresa de telecomunicaciones que opera en México y Colombia. A partir de tres fuentes de datos (planes, usuarios y uso real del servicio), se realiza un proceso completo de exploración, limpieza y segmentación para identificar patrones de consumo y oportunidades comerciales basadas en datos.
+## 🧩 Introducción
+Este proyecto analiza el comportamiento de los usuarios de **ConectaTel**, una empresa de telecomunicaciones que opera en México y Colombia.
 
-🎯 Objetivo del Proyecto
+A partir de tres fuentes de datos (planes, usuarios y uso real del servicio), se realiza un flujo completo de:
 
-Construir una visión clara y accionable del comportamiento de los clientes de ConectaTel, identificando: 
-- Patrones de uso de llamadas y mensajes 
-- Segmentos de clientes según edad y nivel de uso 
-- Comportamientos atípicos (outliers) 
-- Oportunidades para optimizar planes y mejorar la experiencia del usuario 
+- Exploración de datos
+- Limpieza
+- Análisis
+- Segmentación
 
-📂 Datasets Utilizados
+El objetivo es identificar patrones de consumo y descubrir oportunidades comerciales basadas en datos.
 
-1. 	plans.csv
+---
 
-Contiene información de los planes actuales: 
+## 🎯 Objetivo del proyecto
 
-• Nombre del plan 
-• Minutos incluidos 
-• MEnsajes incluidos 
-• GB incluidos 
-• Costo por mes 
+Construir una visión clara y accionable del comportamiento de los clientes de ConectaTel, identificando:
 
-2. 	users_latam.csv
+- Patrones de uso de llamadas y mensajes
+- Segmentos de clientes según edad y nivel de uso
+- Comportamientos atípicos (*outliers*)
+- Oportunidades para optimizar planes y mejorar la experiencia del usuario
 
-Información de los usuarios: 
+---
 
-• User_ID	
-• Edad 
-•	Ciudad 
-•	Fecha de registro 
-•	Plan contratado 
+## 📂 Datasets utilizados
 
-3. 	usage.csv
+### 📄 `plans.csv`
+Contiene información de los planes actuales:
 
-Detalles del uso real del servicio: 
+- Nombre del plan  
+- Minutos incluidos  
+- Mensajes incluidos  
+- GB incluidos  
+- Costo mensual  
 
-• Cantidad de llamadas
-• Minutos utilizados
-• Cantidad de mensajes
+---
 
-🔍 Etapas del Análisis Realizadas 
+### 📄 `users_latam.csv`
+Información de los usuarios:
 
-1. 	Exploración inicial de los datasets
-   
-  • Revisión de estructura, tipos de datos y valores faltantes
+- `user_id`  
+- Edad  
+- Ciudad  
+- Fecha de registro  
+- Plan contratado  
 
-2. 	Limpieza de datos
-   
-• Corrección de tipos
+---
 
-•	Manejo de valores atípicos 
+### 📄 `usage.csv`
+Detalles del uso real del servicio:
 
-• Validación de rangos 
+- Cantidad de llamadas  
+- Minutos utilizados  
+- Cantidad de mensajes  
 
-3. Análisis exploratorio (EDA)
+---
 
-• Distribuciones 
+## 🔍 Etapas del análisis
 
-• Boxplots 
+### 🧪 1. Exploración inicial de los datos
+- Revisión de estructura
+- Tipos de datos
+- Identificación de valores faltantes
 
-• Identificación de outliers 
+---
 
-4. 	Segmentación de clientes 
-   
-• Por nivel de uso (bajo, medio, alto) 
+### 🧹 2. Limpieza de datos
+- Corrección de tipos de datos
+- Manejo de valores atípicos
+- Validación de rangos
 
-• Por edad (joven, adulto, adulto mayor) 
+---
 
-5. 	Visualización de resultados
+### 📊 3. Análisis exploratorio (EDA)
+- Distribuciones
+- Boxplots
+- Identificación de *outliers*
 
-• 	Gráficos categóricos 
+---
 
-• 	Comparaciones entre segmentos 
+### 👥 4. Segmentación de clientes
 
-6. 	Insight ejecutivo para stakeholders
+Se construyen segmentos con base en:
 
-• 	Hallazgos clave 
+- **Nivel de uso**:
+  - Bajo  
+  - Medio  
+  - Alto  
 
-• 	Implicaciones comerciales 
+- **Edad**:
+  - Joven  
+  - Adulto  
+  - Adulto mayor  
 
-• 	Recomendaciones estratégicas 
+---
 
-▶️ Cómo Ejecutar el Notebook 
+### 📈 5. Visualización de resultados
+- Gráficos categóricos  
+- Comparaciones entre segmentos  
 
-Puedes abrir el notebook directamente en: 
+---
 
-Google Colab 
+### 💡 6. Insights ejecutivos para stakeholders
+- Hallazgos clave  
+- Implicaciones comerciales  
+- Recomendaciones estratégicas  
 
-1. 	Entra al repositorio
+---
 
-2. 	Haz clic en el archivo
-  
-3. 	Selecciona "Open in Colab"
+## ▶️ Cómo ejecutar el notebook
 
-4. 	Ejecuta las celdas de arriba hacia abajo
+Puedes ejecutar el análisis fácilmente en Google Colab:
 
+1. Entra a este repositorio  
+2. Haz clic en el notebook  
+3. Selecciona **"Open in Colab"**  
+4. Ejecuta las celdas de arriba hacia abajo  
 
+---
+
+## 🚀 Resultado esperado
+
+Al finalizar el proyecto se contará con:
+
+- Datos limpios y listos para análisis  
+- Segmentación clara de clientes  
+- Identificación de patrones de consumo  
+- Insights accionables para negocio  
+- Visualizaciones listas para comunicar resultados  
+``
